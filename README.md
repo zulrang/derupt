@@ -45,7 +45,9 @@ The app uses a config file located at:
   "maxSilenceDuration": 3000,    // Max silence duration in ms before stopping
   "hotkey": "CommandOrControl+Shift+V", // Global hotkey for voice capture
 
-  "transcribeApiKey": ""        // Your OpenAI/Whisper API key
+  "transcribeApiKey": "",        // Your OpenAI/Whisper API key
+  "transcribeModel": "whisper-1",
+  "transcribeUri": "https://api.openai.com/v1/audio/transcriptions"
 }
 ```
 
